@@ -7,7 +7,8 @@ added together
 (2 points)
 """
 def perimeter():
-  return
+  x = sum(perimeter)
+  return x
 
 if __name__ == "__main__":
   assert perimeter( [5,2,3,4] ) == 14

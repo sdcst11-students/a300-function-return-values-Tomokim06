@@ -9,8 +9,9 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 
-def distance():
-    return
+def distance(p, q):
+    x = math.dist(p,q)
+    return x
 
 if __name__ == "__main__":
     d = distance( (2,4) , (6,3) )
